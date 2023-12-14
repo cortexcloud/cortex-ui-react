@@ -1,0 +1,32 @@
+{
+  "name": "@cortexcloud/cortex-ui-react",
+  "version": "0.0.62",
+  "description": "Cortex-UI React Component",
+  "main": "index.js",
+  "scripts": {
+    "public": "npm publish --acess=public",
+    "build": "rm -rf cx & tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cortexcloud/cortex-ui-react.git"
+  },
+  "keywords": [
+    "Cortex-UI"
+  ],
+  "author": "Cortex-UI Team",
+  "license": "H Lab Co., Ltd.",
+  "bugs": {
+    "url": "https://github.com/cortexcloud/cortex-ui-react/issues"
+  },
+  "files": [
+    "cx/*"
+  ],
+  "dependencies": {
+    "@cortex-ui/core": "^0.0.304",
+    "@cortex-ui/react": "^0.0.55",
+    "@lit-labs/react": "^1.2.1",
+    "@types/react": "^18.0.27",
+    "react": "^18.2.0"
+  }
+}
